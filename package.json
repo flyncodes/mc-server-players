@@ -1,0 +1,25 @@
+{
+  "name": "mc-server-players",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "FlynCodes",
+  "license": "GPL v3.0",
+  "type": "module",
+  "dependencies": {
+    "@minescope/mineping": "^1.6.1",
+    "croner": "^9.0.0",
+    "discord.js": "^14.18.0",
+    "dotenv-safe": "^9.1.0",
+    "simple-json-db": "^2.0.0"
+  },
+  "devDependencies": {
+    "neostandard": "^0.12.1"
+  }
+}
